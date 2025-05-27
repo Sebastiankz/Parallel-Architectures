@@ -14,7 +14,7 @@ def main():
     C = A @ B
     t1 = time.perf_counter()
 
-    print(f"Matrix {N}x{N} Tiempo de ejecución: {t1 - t0:.6f} segundos", flush=True)
+    print(f"Matrix {N}x{N} Tiempo: {t1 - t0:.6f} segundos", flush=True)
 
 if __name__ == "__main__":
     main()
