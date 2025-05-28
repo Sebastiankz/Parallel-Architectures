@@ -6,7 +6,7 @@ import numpy as np
 from time import perf_counter
 
 matrix_sizes = [1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000]
-prime_digits = [2, 3, 4, 5]
+prime_digits = [4]
 mpi_processes = [1, 2, 4, 6]
 
 matmul_seq = "MatrixM/matmul_seq.py"
